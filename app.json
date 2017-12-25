@@ -1,0 +1,44 @@
+{
+  "pages":[
+    "pages/index/index",
+    "pages/logs/logs",
+    "pages/test/test"
+  ],
+  "window":{
+    "backgroundTextStyle":"light",
+    "navigationBarBackgroundColor": "#fff",
+    "navigationBarTitleText": "WeChat",
+    "navigationBarTextStyle":"black"
+  },
+  "tabBar": {
+    "color": "#a9b7b7",
+    "selectedColor": "#11cd6e",
+    "borderStyle": "white",
+    "list": [
+      {
+        "selectedIconPath": "resources/main_g.png",
+        "iconPath": "resources/main.png",
+        "pagePath": "pages/index/index",
+        "text": "首页"
+      },
+      {
+        "selectedIconPath": "resources/tara_g.png",
+        "iconPath": "resources/tara.png",
+        "pagePath": "pages/test/test",
+        "text": "皇冠"
+      },
+      {
+        "selectedIconPath": "resources/calendar_g.png",
+        "iconPath": "resources/calendar.png",
+        "pagePath": "pages/calendar/calendar",
+        "text": "日历"
+      },
+      {
+        "selectedIconPath": "resources/setup_g.png",
+        "iconPath": "resources/setup.png",
+        "pagePath": "pages/logs/logs",
+        "text": "设置"
+      }
+    ]
+  }
+}
